@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "studentName": "Nguyen Van A",
+      "age": 1,
+      "status": 0
+    },
+    {
+      "id": 3,
+      "studentName":"Nguyen Van B",
+      "age": 1,
+      "status": 0
+    },
+    {
+      "studentName": "Duc Anh",
+      "age": "12",
+      "status": "1",
+      "id": 4
+    },
+    {
+      "studentName": "Phùng Đức Anh",
+      "age": "30",
+      "status": "1",
+      "id": 5
+    },
+    {
+      "studentName": "sdfgfg",
+      "age": "11",
+      "status": "0",
+      "id": 6
+    },
+    {
+      "studentName": "zzczx",
+      "age": "30",
+      "status": "0",
+      "id": 7
+    }
+  ]
+}

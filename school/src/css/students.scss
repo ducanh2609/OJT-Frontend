@@ -1,0 +1,82 @@
+body {
+    background-image: url("../../public/image/homepage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.student-box {
+    width: 50vw;
+    margin: 10vh auto;
+    background-color: rgb(227, 93, 45);
+    padding: 20px 50px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 20px rgba(182, 51, 3, 0.918);
+
+    h1 {
+        text-align: center;
+        color: rgb(68, 50, 49);
+    }
+
+    table {
+        border: 1px solid rgb(155, 34, 34);
+        width: 100%;
+        text-align: center;
+
+        thead {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        td {
+            border: 1px solid rgb(190, 21, 21);
+
+            button {
+                display: block;
+                margin: 0px auto;
+                padding: 5px;
+                border-radius: 3px;
+                border: none;
+                background-color: rgba(76, 76, 147, 0.996);
+                color: rgb(237, 162, 162);
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgb(59, 59, 218);
+                }
+            }
+        }
+    }
+
+    label {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    input {
+        height: 35px;
+        margin: 10px 0;
+        width: 100%;
+        border: none;
+        border-radius: 3px;
+        outline: none;
+        font-size: 18px;
+        padding: 0 10px;
+        background-color: rgb(241, 123, 123);
+    }
+
+    >button {
+        display: block;
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgba(76, 76, 147, 0.996);
+        color: rgb(237, 162, 162);
+
+        &:hover {
+            cursor: pointer;
+            background-color: rgb(59, 59, 218);
+        }
+    }
+
+}
